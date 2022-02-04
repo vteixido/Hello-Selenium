@@ -1,0 +1,66 @@
+ 1  cd hello-spring/
+    2  git  branch -d main
+    3  cd ..
+    4  ls
+    5  cd Hello-Señe
+    6  cd Hello-Selenium/
+    7  git branch
+    8  git checkout main
+    9* git branch -d
+   10  git checkout 'home/gftadmin/Hello-Selenium'
+   11  git checkout home/gftadmin/Hello-Selenium
+   12  git remote
+   13  git remote -v show origin
+   14  git remote remove origin
+   15  git branch
+   16  git branch -M main
+   17  git remote add origin git@github.com:vteixido/Hello-Selenium.git
+   18  git push -u origin main
+   19  cd ..
+   20  ls
+   21  cd misc
+   22  ls
+   23  cp HelloImdbTest.java ../Hello-Selenium/src/test/java/com/gft/helloselenium/
+   24  cd ..
+   25  ls
+   26  ls user
+   27  ls usr
+   28  ls
+   29  chromedrivr -version
+   30  chromedriver -version
+   31  cd Documents/usr/
+   32  cd Documents/
+   33  ls
+   34  ls -a
+   35  cd ..
+   36  cd Documents/..
+   37  cd Documents/../usr
+   38  cd Documents/.
+   39  ls
+   40  ls -la
+   41  cd ..
+   42  ls usr
+   43  /usr
+   44  ls /usr/local/bin
+   45  cd /usr/local/bin
+   46  cd .. / ..
+   47  cd ../..
+   48  cd ..
+   49  ls
+   50  cd ..
+   51  ls
+   52  cd Documents
+   53  cd ..
+   54  ls -a
+   55  cd root
+   56  cd home/
+   57  ls
+   58  cd gftadmin/Downloads/
+   59  tar -zxvf geckodriver-v0.30.0-linux64.tar.gz
+   60  ls geckodriver
+   61  ls -la geckodriver
+   62  chmod 755 geckodriver
+   63  sudo mv geckodriver /usr/local/bin/
+   64  ls /usr/local/bin
+   65  geckodriver --help
+   66  history
