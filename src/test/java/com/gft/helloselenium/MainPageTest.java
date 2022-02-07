@@ -31,7 +31,7 @@ public class MainPageTest {
         driver.quit();
     }
 
-    /*@Test
+    @Test
     public void search() {
         mainPage.searchButton.click();
 
@@ -47,13 +47,14 @@ public class MainPageTest {
 
     @Test
     public void toolsMenu() {
-        new Actions(driver)
+        /*new Actions(driver)
                 .moveToElement(mainPage.toolsMenu)
-                .perform();
+                .perform();*/
+        mainPage.toolsMenu.click();
 
-        WebElement menuPopup = driver.findElement(By.cssSelector("div[data-test='menu-main-popup-content']"));
+        WebElement menuPopup = driver.findElement(By.cssSelector("div[data-test='main-submenu']"));
         assertTrue(menuPopup.isDisplayed());
-    }*/
+    }
 
     @Test
     public void navigationToAllTools() {
